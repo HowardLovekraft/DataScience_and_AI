@@ -1,0 +1,54 @@
+\input{preamble-article}
+
+\begin{document}
+	\title{Работа для 2 практики}
+	\author{Холкин Николай}
+	\date{16 сентября 2025 г.}
+	
+	\maketitle
+	
+		% Шаблон не соответствует ГОСТу 7.32
+		% За шаблоном по ГОСТу 7.32 - сюда:
+		% https://github.com/latex-g7-32/latex-g7-32/releases/tag/5.0.0
+		
+		
+		\subsection{Предметная область}
+		Матчи в Dota 2
+		
+	\subsection{Гипотеза}
+		Совершение первого убийства в игре влияет на вероятность победы команды.
+		
+	\subsection{Необходимый объем данных}
+		2 датасета, $~10000+$ сэмплов
+		
+	\subsection{Источники сбора данных}
+		\begin{itemize}
+			\item \href{https://www.kaggle.com/datasets/bwandowando/dota-2-pro-league-matches-2023}{Kaggle}
+			\item \href{https://archive.ics.uci.edu/dataset/367/dota2+games+results}{UCI MLR}
+		\end{itemize}
+		
+	Были выбраны такие варианты сбора данных, т.к. задача не новая, в ней уже есть качественные датасеты, собранные сообществом.
+	
+	\paragraph{Объем собранных данных}
+		\begin{enumerate}
+			\item Датасет с Kaggle:
+			\begin{itemize}
+				\item 12 csv-таблиц, отражающих каждый аспект матча
+			\end{itemize}
+			
+			\item Датасет с UCI:
+			\begin{itemize}
+				\item 115 фичей
+				\item 102000 сэмплов
+			\end{itemize}
+		\end{enumerate}
+		
+		Природа данных естественная, датасет был собран путем парсинга сайта со статистикой Dota 2.
+	
+	\subsection{План для анализа данных}
+		\begin{enumerate}
+			\item Проверить гипотезу
+			\item Выявить признаки, указывающую на победу
+			\item Написать аглоритм, который будет предсказывать исход матча по параметрам игроков.
+		\end{enumerate}
+\end{document}

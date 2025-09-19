@@ -1,0 +1,53 @@
+# Indexes by other repositories
+Artemis/
+DLS/
+Programming_Course-1_Term-1/
+Project Workshops/
+UrFU AIA Programming/
+Virtual Gardener/
+Физика УрФУ Лабы/
+*/.gitignore
+
+# Local misc files
+TEST01/
+ПП Виталик/
+\[OLD\]\ Virtual\ Gardener/
+\[OLD\]\ Yandex\ Backend\ Course/
+Подготовка\ к\ экзаменам/Математика/CLCVM_2_semester/
+
+# Archived files
+*.7z
+*.zip
+SaDV/П2/03/numpy-practice.7z
+SaDV/П3/09/images.zip
+
+# TeX compilator's files
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.synctex(busy)
+*.toc
+*.nav
+*.snm
+
+# Datasets
+*/П3.1/Datasets/u.user
+*.csv
+*.tsv
+
+# Jupyter env
+.ipynb_checkpoints/
+.jupyter/
+.virtual_documents/
+
+# Python files
+__pycache__/
+venv/
+.venv/
+.pytest_cache/
+uv.lock
+.pymon
+
+# VSCode files
+.vscode/
